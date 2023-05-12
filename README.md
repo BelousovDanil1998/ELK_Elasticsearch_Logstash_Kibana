@@ -1,4 +1,5 @@
- ( logstash.conf) кладем в разархивированную папку Logstash.
+ЛОГИРОВАНИЕ С ПОМОЩЬЮ ELC
+( logstash.conf) кладем в разархивированную папку Logstash.
 Данный файл настраивает Logstash на прослушивание TCP порта 5000 и ожидание JSON-логов. Полученные логи будут отправлены в Elasticsearch в индекс с именем spring-boot-logs.
 Запустить Elasticsearch.
 Запустить Logstash командой bin\logstash -f ВАШ_ПУТЬ\logstash.conf внеся абсолютный путь до файла, который внутри папки logstash
